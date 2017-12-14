@@ -335,18 +335,22 @@ h2 {
     .add__type {
         display: block;
         margin: 10px;
+        width: 100%;
     }
     .add__description {
         display: block;
         margin: 10px;
+        width: 100%;
     }
     .add__value {
         display: block;
         margin: 10px;
+        width: 100%;
     }
     .add__btn {
         display: block;
         margin: 10px;
+        width: 100%;
     }
     .income {
         width: 100%;
@@ -358,6 +362,9 @@ h2 {
         width: 100%;
     }
     body {
+        max-width: 100%;
+    }
+    .add__container {
         max-width: 100%;
     }
 }
