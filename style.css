@@ -322,3 +322,39 @@ h2 {
 .unpaid:hover .item__description {
     font-weight: 900;
 }
+
+
+/*  NEW CUSTOM STYLES*/
+
+@media screen and (max-width:860px) {
+    .bottom,
+    .add,
+    .add__container {
+        text-align: center;
+    }
+    .add__type {
+        display: block;
+        margin: 10px;
+    }
+    .add__description {
+        display: block;
+        margin: 10px;
+    }
+    .add__value {
+        display: block;
+        margin: 10px;
+    }
+    .add__btn {
+        display: block;
+        margin: 10px;
+    }
+    .income {
+        width: 100%;
+    }
+    .expenses {
+        width: 100%;
+    }
+    body {
+        max-width: 100%;
+    }
+}
