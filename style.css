@@ -354,6 +354,9 @@ h2 {
     .expenses {
         width: 100%;
     }
+    .top {
+        width: 100%;
+    }
     body {
         max-width: 100%;
     }
